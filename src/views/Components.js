@@ -1,4 +1,5 @@
 import React, { useReducer, useState } from "react";
+import UseEffectPractice from "../components/UseEffectPractice/UseEffectPractice";
 
 const Components = () => {
   const [inputContent, setInputContent] = useReducer(
@@ -70,6 +71,7 @@ const Components = () => {
             {content}
           </div>
         ))}
+      <UseEffectPractice />
     </div>
   );
 };
