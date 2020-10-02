@@ -5,6 +5,7 @@ import Docs from "./views/Docs.js";
 import Tips from "./views/Tips.js";
 import Users from "./views/Users.js";
 import Patterns from "./views/Patterns.js";
+import Compound from "./views/Compound.js";
 import Components from "./views/Components.js";
 import styles from "./App.module.scss";
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/patterns" exact component={Patterns} />
         <Route path="/components" exact component={Components} />
         <Route path="/users" exact component={Users} />
+        <Route path="/compound" exact component={Compound} />
       </div>
     </Router>
   );
