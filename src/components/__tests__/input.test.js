@@ -1,6 +1,6 @@
 import React from "react";
 import { fireEvent, render } from "@testing-library/react";
-import Input from "./input";
+import Input from "../Input/input";
 
 const renderInput = (props) => {
   const utils = render(<Input name="name" label="Name" {...props} />);
