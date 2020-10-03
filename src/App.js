@@ -9,6 +9,7 @@ import Compound from "./views/Compound.js";
 import Components from "./views/Components.js";
 import styles from "./App.module.scss";
 import { LangContext } from "./context";
+import AxiosTesting from "./components/AxiosTesting/AxiosTesting";
 
 class App extends Component {
   setLanguage = (lang) => {
@@ -34,6 +35,7 @@ class App extends Component {
             <Route path="/components" exact component={Components} />
             <Route path="/users" exact component={Users} />
             <Route path="/compound" exact component={Compound} />
+            <Route path="/axiosTesting" exact component={AxiosTesting} />
           </div>
         </LangContext.Provider>
       </Router>

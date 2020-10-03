@@ -54,6 +54,9 @@ const Header = () => {
               <li>
                 <NavLink to="/compound">Compound</NavLink>
               </li>
+              <li>
+                <NavLink to="/axiosTesting">Axios Testing</NavLink>
+              </li>
             </ul>
           </div>
         </nav>
