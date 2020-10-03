@@ -30,7 +30,7 @@ describe("Input component", () => {
   });
 
   test("displays proper value", () => {
-    const { input } = renderInput;
+    const { input } = renderInput();
 
     expect(input).toBeInTheDocument();
 
